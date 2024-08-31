@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea de Tiempo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Línea de Tiempo</h1>
+    <div id="timeline">
+        <!-- Los eventos se añadirán aquí dinámicamente -->
+    </div>
+
+    <form id="event-form">
+        <input type="date" id="event-date" required>
+        <input type="text" id="event-title" placeholder="Descripción corta" required>
+        <textarea id="event-details" placeholder="Detalles" required></textarea>
+        <input type="file" id="event-image" accept="image/*">
+        <button type="submit">Agregar Evento</button>
+    </form>
+</body>
+
+</html>
